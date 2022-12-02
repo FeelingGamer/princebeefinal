@@ -31,6 +31,7 @@ const appRoute: Routes = [
   {
     path: 'book', component: BookComponent
   }
+  
 ]
 
 
