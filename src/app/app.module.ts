@@ -9,6 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PackagesComponent } from './packages/packages.component';
 import { NavloginComponent } from './navlogin/navlogin.component';
+import { BookComponent } from './book/book.component';
 
 
 const appRoute: Routes = [
@@ -26,6 +27,9 @@ const appRoute: Routes = [
   },
   {
     path: 'packages', component: PackagesComponent
+  },
+  {
+    path: 'book', component: BookComponent
   }
 ]
 
@@ -41,6 +45,7 @@ const appRoute: Routes = [
     NavbarComponent,
     PackagesComponent,
     NavloginComponent,
+    BookComponent,
 
   ],
   imports: [
