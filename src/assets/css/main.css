@@ -1503,10 +1503,9 @@ p {
         display:block
     }
     }
-    
 
-
-
-
-
-
+/* CSS for Form Booking */
+.card {
+    margin: 150px 100px 100px 100px;
+    box-shadow: #222;
+}
