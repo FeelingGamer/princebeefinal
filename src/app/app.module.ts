@@ -9,6 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PackagesComponent } from './packages/packages.component';
 import { combineLatest } from 'rxjs';
+import { NavloginComponent } from './navlogin/navlogin.component';
 
 
 const appRoute: Routes = [
@@ -40,6 +41,7 @@ const appRoute: Routes = [
     RegisterComponent,
     NavbarComponent,
     PackagesComponent,
+    NavloginComponent,
 
   ],
   imports: [
