@@ -9,6 +9,13 @@ body{
     color:#676f73;
     overflow-x:hidden
 }
+.login{
+    width: 100px;;
+    border-radius: 10px;
+    background-color: #1aff71;
+    border: none;
+
+}
 * {
     margin:0;padding:0;box-sizing:border-box
 }
@@ -1286,7 +1293,7 @@ p {
         position:absolute;
         width:2px;
         height:calc(100% - 40px);
-        background:#fff;top:20px;
+        background:#1aff71;top:20px;
         border-radius:5px
     }
     @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -1496,6 +1503,7 @@ p {
         display:block
     }
     }
+    
 
 
 
